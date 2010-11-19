@@ -1,0 +1,26 @@
+---
+abstract: 'gzip compless HTTP response'
+author:
+  - 'Kenta Sato <kenta.sato.1990@gmail.com>'
+configure_requires:
+  Module::Build: 0.36
+generated_by: 'Module::Build version 0.3607'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Plack-Middleware-Gzip
+provides:
+  Plack::Middleware::Gzip:
+    file: lib/Plack/Middleware/Gzip.pm
+    version: v0.0.1
+requires:
+  Compress::Zlib: 0
+  Plack::Middleware: 0
+  Scalar::Util: 0
+  Test::More: 0
+  parent: 0
+  version: 0
+resources:
+  license: http://dev.perl.org/licenses/
+version: v0.0.1

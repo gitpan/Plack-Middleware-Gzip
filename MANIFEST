@@ -1,0 +1,13 @@
+Build.PL
+Changes
+MANIFEST
+Makefile.PL
+README
+lib/Plack/Middleware/Gzip.pm
+t/00.load.t
+t/01.array_body.t
+t/02.fh_body.t
+t/test.txt
+t/perlcritic.t
+t/pod.t
+META.yml
